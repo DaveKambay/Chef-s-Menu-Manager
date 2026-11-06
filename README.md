@@ -6,7 +6,7 @@ Chef's Menu Manager is a mobile application developed using React Native and Exp
 
 The app allows users to add, view, update, delete, search and filter menu items. It also displays useful statistics to help the restaurant owner understand the menu.
 
-This project was developed as part of a Mobile Application Development Portfolio of Evidence (POE).
+This project was developed as part of Mobile Scripting Portfolio of Evidence (POE).
 
 ## Features
 
@@ -152,11 +152,9 @@ Possible improvements for future versions include:
 
 The application currently uses sample menu data and React state to manage menu items. Menu changes are not permanently stored in a database, so they may reset when the application reloads.
 
-The listed dish prices are examples and can be changed by the restaurant owner.
-
 ## Author
 
-**Developer:** [David Kambay-Bumba]
+**Developer:** David Kambay-Bumba
 
 **Project:** Chef's Menu Manager
 
@@ -168,9 +166,8 @@ The listed dish prices are examples and can be changed by the restaurant owner.
 
 *This project was developed for educational purposes as part of a  school project.*
 ## Youtube video link
-
+https://youtu.be/Q-lIGbH_aXE
 ## References
-# REFERENCES
 
 Expo (n.d.) *Expo Documentation*. Available at: https://docs.expo.dev/ (Accessed: 5 November 2026).
 
