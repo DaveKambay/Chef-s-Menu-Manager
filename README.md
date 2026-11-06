@@ -158,7 +158,7 @@ The application currently uses sample menu data and React state to manage menu i
 
 **Project:** Chef's Menu Manager
 
-**Technology:** React Native and JavaScript
+**Technology:** React Native
 
 **Platform:** Expo Snack
 
