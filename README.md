@@ -1,6 +1,6 @@
-🍽️ Chef's Menu Manager
+# 🍽️ Chef's Menu Manager
 
-Project Overview
+## Project Overview
 
 Chef's Menu Manager is a mobile application developed using React Native and Expo. The application is designed to help restaurant owners and chefs manage their restaurant menus digitally instead of relying on paper records.
 
@@ -8,168 +8,110 @@ The app allows users to add, view, update, delete, search and filter menu items.
 
 This project was developed as part of a Mobile Application Development Portfolio of Evidence (POE).
 
-Features
+## Features
 
-1. Manage Menu Items
+### 1. Manage Menu Items
+- Add new dishes to the menu.
+- View all available menu items.
+- Edit existing dish information.
+- Delete menu items.
+- Enter a dish name, description, course and price.
 
-Add new dishes to the menu.
+### 2. Search and Filter
+- Search for dishes by name.
+- Search using dish descriptions.
+- Search using course categories.
+- Filter menu items by Starter, Main Course or Dessert.
+- View all menu items using the All filter.
 
-View all available menu items.
-
-Edit existing dish information.
-
-Delete menu items.
-
-Enter a dish name, description, course and price.
-
-2. Search and Filter
-
-Search for dishes by name.
-
-Search using dish descriptions.
-
-Search using course categories.
-
-Filter menu items by Starter, Main Course or Dessert.
-
-View all menu items using the All filter.
-
-3. Menu Statistics
-
+### 3. Menu Statistics
 The application automatically calculates and displays:
+- Total number of menu items.
+- Average menu price.
+- Lowest menu price.
+- Highest menu price.
+- Number of starters.
+- Number of main courses.
+- Number of desserts.
 
-Total number of menu items.
-
-Average menu price.
-
-Lowest menu price.
-
-Highest menu price.
-
-Number of starters.
-
-Number of main courses.
-
-Number of desserts.
-
-4. Sample Menu
+### 4. Sample Menu
 
 The application includes 30 example dishes divided into three categories.
 
-Category
-
-Number of dishes
-
-Starters
-
-10
-
-Main Courses
-
-10
-
-Desserts
-
-10
-
-Total
-
-30
+| Category | Number of dishes |
+|---|---:|
+| Starters | 10 |
+| Main Courses | 10 |
+| Desserts | 10 |
+| **Total** | **30** |
 
 All sample prices are displayed in South African Rand (ZAR).
 
-5. User Interface
+### 5. User Interface
+- Simple and beginner-friendly interface.
+- Navy blue and yellow colour scheme.
+- Food emojis to identify menu categories.
+- Clear buttons and input fields.
+- Validation messages to help prevent incorrect information.
+- Confirmation message before deleting a dish.
 
-Simple and beginner-friendly interface.
+## Technologies Used
 
-Navy blue and yellow colour scheme.
+- **React Native** – Used to develop the mobile application.
+- **JavaScript** – Used to implement the application functionality.
+- **Expo Snack** – Used to develop and run the application.
+- **React Hooks** – Used to manage application state.
+- **Material Community Icons** – Used for application icons.
 
-Food emojis to identify menu categories.
+## Getting Started
 
-Clear buttons and input fields.
-
-Validation messages to help prevent incorrect information.
-
-Confirmation message before deleting a dish.
-
-Technologies Used
-
-React Native – Used to develop the mobile application.
-
-JavaScript – Used to implement the application functionality.
-
-Expo Snack – Used to develop and run the application.
-
-React Hooks – Used to manage application state.
-
-Material Community Icons – Used for application icons.
-
-Getting Started
-
-Requirements
+### Requirements
 
 To run this project, you need:
 
-An internet connection.
+- An internet connection.
+- A web browser.
+- Access to Expo Snack.
 
-A web browser.
+### Running the Application Using Expo Snack
 
-Access to Expo Snack.
+1. Visit [Expo Snack](https://snack.expo.dev/).
+2. Open the project.
+3. Open the `App.js` file.
+4. Copy the application code into the file.
+5. Run the application using the available preview.
 
-Running the Application Using Expo Snack
-
-Visit Expo Snack.
-
-Open the project.
-
-Open the App.js file.
-
-Copy the application code into the file.
-
-Run the application using the available preview.
-
-Running the Project Locally
+### Running the Project Locally
 
 If you want to run the project on your computer:
 
-Install Node.js.
+1. Install Node.js.
+2. Install Expo CLI or use the current Expo project setup instructions.
+3. Create an Expo React Native project.
+4. Add the application code to `App.js`.
+5. Install any dependencies that are not already included.
+6. Start the development server using:
 
-Install Expo CLI or use the current Expo project setup instructions.
-
-Create an Expo React Native project.
-
-Add the application code to App.js.
-
-Install any dependencies that are not already included.
-
-Start the development server using:
-
+```bash
 npx expo start
+```
 
-How to Use the Application
+## How to Use the Application
 
-Open the application to view the restaurant menu.
+1. Open the application to view the restaurant menu.
+2. Browse the available starters, main courses and desserts.
+3. Use the search bar to find a particular dish.
+4. Use the course filters to display a specific category.
+5. Select **Add Menu Item** to add a new dish.
+6. Enter the dish name, description, course and price.
+7. Select **Save Menu Item**.
+8. Select the pencil icon to edit an existing dish.
+9. Select the bin icon to delete a dish.
+10. Open the statistics section to view menu information.
 
-Browse the available starters, main courses and desserts.
+## Project Structure
 
-Use the search bar to find a particular dish.
-
-Use the course filters to display a specific category.
-
-Select Add Menu Item to add a new dish.
-
-Enter the dish name, description, course and price.
-
-Select Save Menu Item.
-
-Select the pencil icon to edit an existing dish.
-
-Select the bin icon to delete a dish.
-
-Open the statistics section to view menu information.
-
-Project Structure
-
+```text
 Chefs-Menu-Manager/
 │
 ├── App.js
@@ -177,29 +119,54 @@ Chefs-Menu-Manager/
 │
 └── README.md
     └── Project documentation
+```
 
-Learning Outcomes
+## Learning Outcomes
 
 Through developing this application, I practised:
 
-Building mobile user interfaces using React Native.
+- Building mobile user interfaces using React Native.
+- Using JavaScript functions and variables.
+- Managing application data using `useState`.
+- Displaying lists using `FlatList`.
+- Handling user input using `TextInput`.
+- Creating reusable components.
+- Implementing add, edit and delete functionality.
+- Searching and filtering menu information.
+- Calculating and displaying statistics.
+- Using conditional rendering.
+- Applying basic input validation.
 
-Using JavaScript functions and variables.
+## Future Improvements
 
-Managing application data using useState.
+Possible improvements for future versions include:
 
-Displaying lists using FlatList.
+- Adding real food images.
+- Saving menu information permanently using a database.
+- Adding user authentication.
+- Allowing menu items to be sorted by price.
+- Adding more menu categories.
+- Creating a restaurant dashboard.
 
-Handling user input using TextInput.
+## Important Note
 
-Creating reusable components.
+The application currently uses sample menu data and React state to manage menu items. Menu changes are not permanently stored in a database, so they may reset when the application reloads.
 
-Implementing add, edit and delete functionality.
+The listed dish prices are examples and can be changed by the restaurant owner.
 
-Searching and filtering menu information.
+## Author
 
-Calculating and displaying statistics.
+**Developer:** [David Kambay-Bumba]
 
-Using conditional rendering.
+**Project:** Chef's Menu Manager
 
-Applying basic input validation
+**Technology:** React Native and JavaScript
+
+**Platform:** Expo Snack
+
+---
+
+*This project was developed for educational purposes as part of a  school project.*
+## Youtube video link
+
+## References
