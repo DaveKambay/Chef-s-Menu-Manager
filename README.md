@@ -170,3 +170,16 @@ The listed dish prices are examples and can be changed by the restaurant owner.
 ## Youtube video link
 
 ## References
+# REFERENCES
+
+Expo (n.d.) *Expo Documentation*. Available at: https://docs.expo.dev/ (Accessed: 5 November 2026).
+
+GitHub (n.d.) *GitHub Documentation*. Available at: https://docs.github.com/ (Accessed: 6 October 2026).
+
+Meta Platforms, Inc. (n.d.) *React Documentation*. Available at: https://react.dev/ (Accessed: 3 November 2026).
+
+Meta Platforms, Inc. (n.d.) *React Native Documentation*. Available at: https://reactnative.dev/ (Accessed: 1 November 2026).
+
+Mozilla (n.d.) *JavaScript Guide*. MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide (Accessed: 2 November 2026).
+
+University College London (n.d.) *Harvard referencing: Web page*. Available at: https://library-guides.ucl.ac.uk/harvard/web-page (Accessed: 6 November 2026).
